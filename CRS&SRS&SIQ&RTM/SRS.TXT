@@ -1,0 +1,36 @@
+SRS_00_1	-Develop DIO Driver for Atmega32. 
+			-The DIO must read any digital input pin.
+			-The DIO must write on any digital output pin.
+			-The DIO must allow for pullup resistor activation.
+			-The DIO must allow to write on a certain digital port.
+			-The DIO must allow to read from a certain digital port.
+
+SRS_00_2	-Develop AIO Driver for Atmega32. 
+			-The AIO must read any analogue input pin.
+			-The AIO must allow to read from a certain analogue port.
+			
+SRS_00_3	-Develop ADC Driver for Atmega32.
+			-The ADC must read a configured analogue input and convert it to its digital representation.
+			
+SRS_00_4	-Develop LM35 Temprature Sensor Driver.
+			-The driver must provide an API that returns the current temprature.
+			
+SRS_00_5	-Develop LCD Driver.
+			-The LCD must be 16*2(Rows X Coloumns)Driver.
+			-The Driver must provide an API that prints a string that contains both characters and numbers.
+
+SRS_00_6	-Develop a Motor Driver. 
+			-The Driver must provide an application that recieves a certain speed and drives the motor with the same speed.
+			
+SRS_00_7	-Develop the main application.
+			-The application must provide three motor speeds for three temperature ranges.
+			Temperatue ranges(c)				Motor Speed(r.p.m)
+				20 - 30								30
+				30 - 40								60	
+				40 - 50								90
+			-Display the temperaute and speed in the first line & the readings in the second line below the specific title.
+			-The text diplayed must be static. i.e no moving text.
+			
+SRS_00_8	-Design a PCB that will connect the temperature sensor wirings, motor wirings and the LCD.
+			-The PCB must have a tacktile switch button that switches off and on the system.
+			
