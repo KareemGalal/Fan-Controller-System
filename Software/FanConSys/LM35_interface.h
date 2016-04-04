@@ -1,12 +1,13 @@
 /*
- * Volt_interface.h
+ * LM35_interface.h
  *
  *  Created on: ??þ/??þ/????
  *      Author: CRIZMA-PC&LAPTOP
  */
 
-#ifndef VOLT_INTERFACE_H_
-#define VOLT_INTERFACE_H_
+#ifndef LM35_INTERFACE_H_
+#define LM35_INTERFACE_H_
+
 
 
 /*Comment!:  the Volt  Channels */
@@ -20,7 +21,12 @@
 #define VOLT_u8CHANNEL6			6
 #define VOLT_u8CHANNEL7			7
 
-/*Comment!:  Read Volt from the channel */
-extern u16 VOLT_u16ReadVolt (u8 Copy_u8ChannelNum);
 
-#endif /* VOLT_INTERFACE_H_ */
+extern void Temp_Init(void);
+
+extern u8 Temp_u8GetVal(void);
+
+
+
+
+#endif /* LM35_INTERFACE_H_ */

@@ -1,14 +1,15 @@
 /*
- * Volt_config.h
+ * LM35_config.h
  *
  *  Created on: ??þ/??þ/????
  *      Author: CRIZMA-PC&LAPTOP
  */
 
-#ifndef VOLT_CONFIG_H_
-#define VOLT_CONFIG_H_
+#ifndef LM35_CONFIG_H_
+#define LM35_CONFIG_H_
 
-
+/*Comment!: select the channel  */
+#define VOLT_u8SELECTCHANNEL				VOLT_u8CHANNEL0
 
 /*Comment!:  set The value of the Vref*/
 
@@ -18,4 +19,7 @@
 #define VOLT_u16RESOLUTION			1024
 
 
-#endif /* VOLT_CONFIG_H_ */
+
+
+
+#endif /* LM35_CONFIG_H_ */
