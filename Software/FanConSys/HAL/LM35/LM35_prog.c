@@ -5,11 +5,11 @@
  *      Author: CRIZMA-PC&LAPTOP
  */
 
-#include "types.h"
+#include "..\..\Utilities\types.h"
+#include "..\..\MCAL\ADC\ADC_interface.h"
 #include "LM35_interface.h"
 #include "LM35_config.h"
 #include "LM35_private.h"
-#include "ADC_interface.h"
 
 
 

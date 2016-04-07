@@ -5,10 +5,10 @@
  *      Author: CRIZMA-PC&LAPTOP
  */
 
-#include	"types.h"
+#include "..\..\Utilities\types.h"
 #include	"ADC_interface.h"
-#include  	"ADC_config.h"
-#include 	"ADC_private.h"
+#include	"ADC_config.h"
+#include	"ADC_private.h"
 
 
 

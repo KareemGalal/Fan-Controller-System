@@ -4,12 +4,13 @@
  *  Created on: ??þ/??þ/????
  *      Author: CRIZMA-PC&LAPTOP
  */
-#include "types.h"
-#include "DIO_interface.h"
+#include "..\..\Utilities\types.h"
+#include "..\..\Utilities\delay.h"
+#include "..\..\MCAL\DIO\DIO_interface.h"
 #include "LCD_interface.h"
 #include "LCD_config.h"
 #include "LCD_private.h"
-#include "delay.h"
+
 
 
 extern void LCD_voidInit(void)

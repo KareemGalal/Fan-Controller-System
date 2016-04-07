@@ -4,10 +4,10 @@
  *  Created on: ??þ/??þ/????
  *      Author: CRIZMA-PC&LAPTOP
  */
-#include	"types.h"
-#include 	"DIO_interface.h"
-#include	"DIO_private.h"
-#include	"DIO_config.h"
+#include "..\..\Utilities\types.h"
+#include "DIO_interface.h"
+#include "DIO_private.h"
+#include "DIO_config.h"
 
 /*Comment!: Array contain the Ports Addresses*/
 static u8* const  DIO_u8ArrPtrToPORTReg[DIO_u8PortsNum] = {DIO_u8PORTA ,DIO_u8PORTB ,DIO_u8PORTC,DIO_u8PORTD};

@@ -22,9 +22,9 @@
 
 /*Comment!:  COTNTROL Bus PINS*/
 
-#define LCD_u8PIN_RS		DIO_u8PIN26
-#define LCD_u8PIN_RW		DIO_u8PIN25
-#define LCD_u8PIN_EN		DIO_u8PIN24
+#define LCD_u8PIN_RS		DIO_u8PIN31
+#define LCD_u8PIN_RW		DIO_u8PIN30
+#define LCD_u8PIN_EN		DIO_u8PIN29
 
 /*Comment! LCD INITIAL STATE */
 /*Rang!:  LCD_u8DISABLE ~ LCD_u8ENABLE*/
