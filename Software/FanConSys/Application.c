@@ -1,11 +1,11 @@
 
 #include "types.h"
 #include "ADC_interface.h"
-#include "Volt_interface.h"
+#include "LM35_interface.h"
 #include "DIO_interface.h"
 
 #include "LCD_interface.h"
-#include "LM35_interface.h"
+
 #include "stdlib.h"
 #include "string.h"
 
@@ -62,11 +62,18 @@ extern void FanControlSys(void)
 			Local_u8FanSpeed = Speed2;
 		}
 
-	else if (Local_u8temp >=25 && Local_u8temp <30 )
+	else if (Local_u8temp >=25 && Local_u8temp <=30 )
 	{
 		Local_u8FanSpeed = Speed3;
 	}
-	else {
+	else if(Local_u8temp >30) {
+		Local_u8FanSpeed = Speed3;
+	}
+	else if(Local_u8temp <15) {
+			Local_u8FanSpeed = Speed1;
+		}
+	else{
+
 
 	}
 
